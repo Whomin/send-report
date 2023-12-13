@@ -1,3 +1,0 @@
-Policy Title,Policy Locking,Policy Modified,Policy Last Evaluated,Asset Groups,IPs,Asset Tags,PC Agent IPs,Technologies,Controls,Assets,Control Instances,Passed,Failures,Error,Approved Exceptions,Pending Exceptions
-TLT-GISS-2021 - Microsoft Windows Server 2016 (Member Server) Level 1.v1,Unlocked,08/09/2023 at 15:24:26 (GMT+0700),11/27/2023 at 05:04:16 (GMT+0700),,,"Included(all): BU~TLT - Thailand, OS: Windows Server 2016;
-Excluded(any);",No,Windows 2016 Server,102,58,5916,5915(99.98%),1(0.02%),0,0,0
