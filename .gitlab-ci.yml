@@ -1,0 +1,17 @@
+default: 
+  tags: 
+  - tlt-pks-linux
+
+stages:          # List of stages for jobs, and their order of execution
+  - send_report
+
+print_email:
+  stage: send_report
+  before_script:
+    - python3 security_report.py
+  script:
+    - python3 transform.py
+  after_script:
+    - pip3 install openpyxl
+    - python3 excel.py
+    - python3 sendmail.py

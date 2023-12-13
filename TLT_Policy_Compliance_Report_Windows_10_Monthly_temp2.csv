@@ -1,0 +1,153 @@
+Host IP,DNS Hostname,NetBIOS Hostname,Tracking Method,Operating System,OS CPE,NETWORK,Last Scan Date,Evaluation Date,Control ID,Technology,Control,Criticality Label,Criticality Value,Instance,Status,Remediation,Deprecated,Evidence,Cause of Failure,Qualys Host ID
+10.110.100.94,tlt-sd-pc-2880.tlt.co.th,TLT-SD-PC-2880,AGENT,Windows 10 Enterprise 64 bit Edition Version 22H2,cpe:/o:microsoft:windows_10:2009::x64:,Global Default Network,11/16/2023 at 09:12:43 (GMT+0700),11/16/2023 at 10:04:52 (GMT+0700),1429,Windows 10,Status of the 'World Wide Web Publishing' service,SERIOUS,3,os,Failed,,0,"This Integer value <B>X</B> indicates the current status of the <B>World Wide Web Publishing</B> service from the <B>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\W3SVC</B> registry key.  A value of <B>2</B> indicates the service is set to <B>automatic</B>; a value of <B>3</B> indicates the service is set to <B>manual</B>; a value of <B>21</B> indicates the service is set to <B>Automatic (Delayed Start)</B>; a value of <B>4</B> indicates the service is set to <B>disabled</B>; a value of <B>21</B> indicates the service is set to <B>Automatic (Delayed Start)</B>.
+
+======Expected Value(s)======
+Key not found
+------------ OR ------------
+Disabled (4)
+
+======Current Value(s) - Last updated: 11/16/2023 at 09:12:43 (GMT+0700)======
+Automatic (2)
+","	======Unexpected values======
+Automatic (2)
+======Missing values======
+Key not found
+------------ OR ------------
+Disabled (4)",bb767432-0b44-475f-a953-4cb1a1084f3c
+10.110.100.98,sdnb0787.tlt.co.th,SDNB0787,AGENT,Windows 10 Enterprise 64 bit Edition Version 22H2,cpe:/o:microsoft:windows_10:2009::x64:,Global Default Network,11/28/2023 at 10:14:54 (GMT+0700),11/28/2023 at 10:21:44 (GMT+0700),9302,Windows 10,"Status of ""Enable screen saver"" configuration for Windows users",CRITICAL,4,os,Failed,,0,"This List String value(s) of <B>X</B> indicate the value of registry <B>ScreenSaveActive</B> for logging/logged on users Or users containing <B>Administrator</B> name. A value of <B>1</B> indicates the status as <B>Enabled</B>; a value of <B>0</B> indicates the status as <B>Disabled</B>.
+
+======Expected Value(s)======
+does not contain regular expression list
+0$
+
+======Current Value(s) - Last updated: 11/28/2023 at 09:12:22 (GMT+0700)======
+S-1-5-21-421920905-399701513-2736796129-5919:0
+TLT-DOMAIN\songrit<LastLoggedUser>:1
+S-1-5-21-421920905-399701513-2736796129-56612:Setting not found
+SDNB0787\IFD:Setting not found
+","	======Unexpected values======
+S-1-5-21-421920905-399701513-2736796129-5919:0",69bbdb79-5e4a-4525-b711-af704c35fd90
+10.110.100.183,tlt-sd-pc-2886.tlt.co.th,TLT-SD-PC-2886,AGENT,Windows 10 Enterprise 64 bit Edition Version 22H2,cpe:/o:microsoft:windows_10:2009::x64:,Global Default Network,11/29/2023 at 02:47:22 (GMT+0700),11/29/2023 at 03:03:55 (GMT+0700),1427,Windows 10,Status of the 'IIS Administrator' service,SERIOUS,3,os,Failed,,0,"This Integer value <B>X</B> indicates the startup type of the <B>IIS Administrator</B> service from the <B>HKLM\SYSTEM\CurrentControlSet\Services\IISADMIN\Start</B> registry key.  A value of <B>2</B> indicates <B>Automatic</B> startup; a value of <B>3</B> indicates <B>Manual</B> startup; a value of <B>4</B> indicates <B>Disabled</B> startup.
+
+======Expected Value(s)======
+Key not found
+------------ OR ------------
+Disabled (4)
+
+======Current Value(s) - Last updated: 11/29/2023 at 02:47:22 (GMT+0700)======
+Automatic (2)
+","	======Unexpected values======
+Automatic (2)",1e80856c-e89e-40cb-9143-a2573836a6f8
+10.110.100.183,tlt-sd-pc-2886.tlt.co.th,TLT-SD-PC-2886,AGENT,Windows 10 Enterprise 64 bit Edition Version 22H2,cpe:/o:microsoft:windows_10:2009::x64:,Global Default Network,11/29/2023 at 02:47:22 (GMT+0700),11/29/2023 at 03:03:55 (GMT+0700),1429,Windows 10,Status of the 'World Wide Web Publishing' service,SERIOUS,3,os,Failed,,0,"This Integer value <B>X</B> indicates the current status of the <B>World Wide Web Publishing</B> service from the <B>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\W3SVC</B> registry key.  A value of <B>2</B> indicates the service is set to <B>automatic</B>; a value of <B>3</B> indicates the service is set to <B>manual</B>; a value of <B>21</B> indicates the service is set to <B>Automatic (Delayed Start)</B>; a value of <B>4</B> indicates the service is set to <B>disabled</B>; a value of <B>21</B> indicates the service is set to <B>Automatic (Delayed Start)</B>.
+
+======Expected Value(s)======
+Key not found
+------------ OR ------------
+Disabled (4)
+
+======Current Value(s) - Last updated: 11/29/2023 at 02:47:22 (GMT+0700)======
+Manual (3)
+","	======Unexpected values======
+Manual (3)
+======Missing values======
+Key not found
+------------ OR ------------
+Disabled (4)",1e80856c-e89e-40cb-9143-a2573836a6f8
+10.110.171.61,tlt-oprpcwin10.tlt.co.th,TLT-OPRPCWIN10,AGENT,Windows 10 Enterprise 64 bit Edition Version 22H2,cpe:/o:microsoft:windows_10:2009::x64:,Global Default Network,11/29/2023 at 02:26:12 (GMT+0700),11/29/2023 at 02:44:35 (GMT+0700),9302,Windows 10,"Status of ""Enable screen saver"" configuration for Windows users",CRITICAL,4,os,Failed,,0,"This List String value(s) of <B>X</B> indicate the value of registry <B>ScreenSaveActive</B> for logging/logged on users Or users containing <B>Administrator</B> name. A value of <B>1</B> indicates the status as <B>Enabled</B>; a value of <B>0</B> indicates the status as <B>Disabled</B>.
+
+======Expected Value(s)======
+does not contain regular expression list
+0$
+
+======Current Value(s) - Last updated: 11/29/2023 at 02:26:12 (GMT+0700)======
+S-1-5-21-421920905-399701513-2736796129-56188:1
+S-1-5-21-421920905-399701513-2736796129-56175:1
+TLT-DOMAIN\IVR:0
+TLT-DOMAIN\tanaporn:1
+S-1-5-21-421920905-399701513-2736796129-66730:Setting not found
+TLT-OPRPCWIN10\admin:Setting not found
+S-1-5-21-421920905-399701513-2736796129-52038:Setting not found
+TLT-DOMAIN\dayend<LastLoggedUser>:Setting not found
+TLT-DOMAIN\admin_thanakki:Setting not found
+TLT-DOMAIN\admin_pradist:Setting not found
+TLT-DOMAIN\admin_eakgapong:Setting not found
+","	======Unexpected values======
+TLT-DOMAIN\IVR:0",587bd8e0-5e1b-49ad-81c9-17ab885c4029
+10.110.171.62,oprpcwin10-test.tlt.co.th,OPRPCWIN10-TEST,AGENT,Windows 10 Enterprise 64 bit Edition Version 22H2,cpe:/o:microsoft:windows_10:2009::x64:,Global Default Network,11/29/2023 at 02:57:03 (GMT+0700),11/29/2023 at 03:10:54 (GMT+0700),9302,Windows 10,"Status of ""Enable screen saver"" configuration for Windows users",CRITICAL,4,os,Failed,,0,"This List String value(s) of <B>X</B> indicate the value of registry <B>ScreenSaveActive</B> for logging/logged on users Or users containing <B>Administrator</B> name. A value of <B>1</B> indicates the status as <B>Enabled</B>; a value of <B>0</B> indicates the status as <B>Disabled</B>.
+
+======Expected Value(s)======
+does not contain regular expression list
+0$
+
+======Current Value(s) - Last updated: 11/29/2023 at 02:57:03 (GMT+0700)======
+TLT-DOMAIN\athigago:1
+S-1-5-21-421920905-399701513-2736796129-56188:1
+S-1-5-21-421920905-399701513-2736796129-56175:1
+TLT-DOMAIN\IVR:0
+TLT-DOMAIN\prerawsu:1
+S-1-5-21-421920905-399701513-2736796129-53638:1
+S-1-5-21-421920905-399701513-2736796129-66730<LastLoggedUser>:Setting not found
+OPRPCWIN10-TEST\admin:Setting not found
+S-1-5-21-421920905-399701513-2736796129-52038:Setting not found
+TLT-DOMAIN\dayend:Setting not found
+S-1-5-21-421920905-399701513-2736796129-56612:Setting not found
+S-1-5-21-421920905-399701513-2736796129-53620:Setting not found
+S-1-5-21-421920905-399701513-2736796129-53621:Setting not found
+","	======Unexpected values======
+TLT-DOMAIN\IVR:0",d0b6a9fe-952a-479a-ba61-403267c9139f
+10.110.196.235,sdnb0792.tlt.co.th,SDNB0792,AGENT,Windows 10 Enterprise 64 bit Edition Version 22H2,cpe:/o:microsoft:windows_10:2009::x64:,Global Default Network,11/28/2023 at 09:33:58 (GMT+0700),11/28/2023 at 09:53:10 (GMT+0700),1427,Windows 10,Status of the 'IIS Administrator' service,SERIOUS,3,os,Failed,,0,"This Integer value <B>X</B> indicates the startup type of the <B>IIS Administrator</B> service from the <B>HKLM\SYSTEM\CurrentControlSet\Services\IISADMIN\Start</B> registry key.  A value of <B>2</B> indicates <B>Automatic</B> startup; a value of <B>3</B> indicates <B>Manual</B> startup; a value of <B>4</B> indicates <B>Disabled</B> startup.
+
+======Expected Value(s)======
+Key not found
+------------ OR ------------
+Disabled (4)
+
+======Current Value(s) - Last updated: 11/28/2023 at 09:33:58 (GMT+0700)======
+Automatic (2)
+","	======Unexpected values======
+Automatic (2)",193d3b61-ce5a-4c2e-ba40-06554e582739
+10.110.196.235,sdnb0792.tlt.co.th,SDNB0792,AGENT,Windows 10 Enterprise 64 bit Edition Version 22H2,cpe:/o:microsoft:windows_10:2009::x64:,Global Default Network,11/28/2023 at 09:33:58 (GMT+0700),11/28/2023 at 09:53:10 (GMT+0700),1429,Windows 10,Status of the 'World Wide Web Publishing' service,SERIOUS,3,os,Failed,,0,"This Integer value <B>X</B> indicates the current status of the <B>World Wide Web Publishing</B> service from the <B>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\W3SVC</B> registry key.  A value of <B>2</B> indicates the service is set to <B>automatic</B>; a value of <B>3</B> indicates the service is set to <B>manual</B>; a value of <B>21</B> indicates the service is set to <B>Automatic (Delayed Start)</B>; a value of <B>4</B> indicates the service is set to <B>disabled</B>; a value of <B>21</B> indicates the service is set to <B>Automatic (Delayed Start)</B>.
+
+======Expected Value(s)======
+Key not found
+------------ OR ------------
+Disabled (4)
+
+======Current Value(s) - Last updated: 11/28/2023 at 09:33:58 (GMT+0700)======
+Automatic (Delayed Start) (21)
+","	======Unexpected values======
+Automatic (Delayed Start) (21)
+======Missing values======
+Key not found
+------------ OR ------------
+Disabled (4)",193d3b61-ce5a-4c2e-ba40-06554e582739
+10.110.196.237,sdnb0791.tlt.co.th,SDNB0791,AGENT,Windows 10 Enterprise 64 bit Edition Version 22H2,'-,Global Default Network,11/24/2023 at 10:22:40 (GMT+0700),11/24/2023 at 10:37:49 (GMT+0700),1429,Windows 10,Status of the 'World Wide Web Publishing' service,SERIOUS,3,os,Failed,,0,"This Integer value <B>X</B> indicates the current status of the <B>World Wide Web Publishing</B> service from the <B>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\W3SVC</B> registry key.  A value of <B>2</B> indicates the service is set to <B>automatic</B>; a value of <B>3</B> indicates the service is set to <B>manual</B>; a value of <B>21</B> indicates the service is set to <B>Automatic (Delayed Start)</B>; a value of <B>4</B> indicates the service is set to <B>disabled</B>; a value of <B>21</B> indicates the service is set to <B>Automatic (Delayed Start)</B>.
+
+======Expected Value(s)======
+Key not found
+------------ OR ------------
+Disabled (4)
+
+======Current Value(s) - Last updated: 11/24/2023 at 08:40:00 (GMT+0700)======
+Automatic (2)
+","	======Unexpected values======
+Automatic (2)
+======Missing values======
+Key not found
+------------ OR ------------
+Disabled (4)",7dac07b5-6f8c-4544-b87e-0994ed70a6f7
+192.168.1.132,anb0391.tlt.co.th,ANB0391,AGENT,Windows 10 Enterprise 64 bit Edition Version 22H2,cpe:/o:microsoft:windows_10:2009::x64:,Global Default Network,11/28/2023 at 08:40:14 (GMT+0700),11/28/2023 at 09:06:58 (GMT+0700),9302,Windows 10,"Status of ""Enable screen saver"" configuration for Windows users",CRITICAL,4,os,Failed,,0,"This List String value(s) of <B>X</B> indicate the value of registry <B>ScreenSaveActive</B> for logging/logged on users Or users containing <B>Administrator</B> name. A value of <B>1</B> indicates the status as <B>Enabled</B>; a value of <B>0</B> indicates the status as <B>Disabled</B>.
+
+======Expected Value(s)======
+does not contain regular expression list
+0$
+
+======Current Value(s) - Last updated: 11/28/2023 at 08:10:35 (GMT+0700)======
+S-1-5-21-421920905-399701513-2736796129-53943:0
+S-1-5-21-421920905-399701513-2736796129-22663:1
+S-1-5-21-421920905-399701513-2736796129-56134<LastLoggedUser>:1
+S-1-5-21-421920905-399701513-2736796129-74400:Setting not found
+S-1-5-21-421920905-399701513-2736796129-66730:Setting not found
+ANB0391\IFD:Setting not found
+","	======Unexpected values======
+S-1-5-21-421920905-399701513-2736796129-53943:0",8f1f5e3c-bcac-441a-998c-e5e928c2b2e1

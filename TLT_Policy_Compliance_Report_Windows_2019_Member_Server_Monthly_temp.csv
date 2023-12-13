@@ -1,0 +1,3 @@
+Policy Title,Policy Locking,Policy Modified,Policy Last Evaluated,Asset Groups,IPs,Asset Tags,PC Agent IPs,Technologies,Controls,Assets,Control Instances,Passed,Failures,Error,Approved Exceptions,Pending Exceptions
+TLT-GISS-2021 - Microsoft Windows Server 2019 (Member Server) Level 1.v1,Unlocked,09/06/2023 at 09:09:30 (GMT+0700),11/28/2023 at 11:05:44 (GMT+0700),,,"Included(all): BU~TLT - Thailand, OS: Windows Server 2019;
+Excluded(all): Domain Controller;",No,Windows 2019 Server,103,76,7828,7810(99.77%),18(0.23%),0,0,0
